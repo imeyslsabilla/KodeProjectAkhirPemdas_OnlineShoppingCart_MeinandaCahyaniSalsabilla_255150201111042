@@ -21,8 +21,4 @@ public class Barang {
     public void tampilkanBarang(){
         System.out.printf("%-10s %-25s Rp%-10d\n", idBarang, namaBarang, hargaBarang);
     }
-
-    // public void showBarang(){
-    //     System.out.printf("%-10s %-25s Rp%-10d %-10d\n", idBarang, namaBarang, hargaBarang, jumlahBarang);
-    // }
 }

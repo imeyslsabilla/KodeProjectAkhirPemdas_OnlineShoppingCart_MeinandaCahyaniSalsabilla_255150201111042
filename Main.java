@@ -303,7 +303,7 @@ public class Main {
                                 cart.tambahKeranjang(code, barang);
                                 System.out.print("Tambahkan Item (Y/N) ? : ");
                                 String confirm = in.nextLine();
-                                if(confirm.equals("N")){
+                                if(confirm.equals("Y")){
                                     break;
                                 }else{
                                     System.out.print("");
